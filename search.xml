@@ -11,6 +11,12 @@
         <content type="html"><![CDATA[<h1 id="Java环境配置"><a href="#Java环境配置" class="headerlink" title="Java环境配置"></a>Java环境配置</h1><h2 id="JDK目录"><a href="#JDK目录" class="headerlink" title="JDK目录"></a>JDK目录</h2><p>版本：Java 8<br>D:\Java_over\JDK_config</p><h2 id="JDK介绍"><a href="#JDK介绍" class="headerlink" title="JDK介绍"></a>JDK介绍</h2><ul><li>JDK基本介绍</li></ul><p>1.JDK的全称(Java Development Kit Java开发工具包)<br>JDK &#x3D; JRE+ java的开发工具[java, javac,javadoc,javap等]</p><p>2.JDK是提供给Java开发人员使用的，其中包含了java的开发工具，也包括了JRE.所以安装了JDK，就不用在单独安装JRE了。</p><ul><li>JRE基本介绍</li></ul><p>1.JRE(Java Runtime Environment Java运行环境)JRE &#x3D; JVM+ Java的核心类库[类]<br>2.包括Java虚拟机(JVM Java Virtual Machine)和Java程序所需的核心类库等,如果想要运行一个开发好的Java程序，计算机中只需要安装JRE即可。</p><h2 id="Java配置环境"><a href="#Java配置环境" class="headerlink" title="Java配置环境"></a>Java配置环境</h2><p>JAVA_HOME &#x2F; PATH<br>当前执行的程序在当前目录下如果不存在，win10系统会在系统中已有的一个名为PATH的环境变量指定的目录中查找。</p><h1 id="Java源程序编写"><a href="#Java源程序编写" class="headerlink" title="Java源程序编写"></a>Java源程序编写</h1><h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ul><li>使用文本编辑器和控制台编译时 格式要一致。ANSI</li><li>Java源文件名和public类名要一致</li><li>控制台编译：</li></ul><p>–  目录 javac HelloWorlf.java (编译)  –&gt; .class文件<br>–  java HelloWorld(解释执行）</p><h1 id="Java重要特点"><a href="#Java重要特点" class="headerlink" title="Java重要特点"></a>Java重要特点</h1><ul><li>面向对象</li><li>健壮性：强类型机制、异常处理、垃圾的自动收集</li><li>跨平台（JVM）</li><li>解释型<h1 id="如何快速学习技术或者知识点"><a href="#如何快速学习技术或者知识点" class="headerlink" title="如何快速学习技术或者知识点"></a>如何快速学习技术或者知识点</h1></li><li>了解需求</li><li>看看现有的技术能不能解决</li><li>引出我们学习的新技术和知识点</li><li>学习新技术或者知识点的基本原理和基本语法（不要考虑细节）</li><li>快速入门（学习基本程序）</li><li>开始研究技术的注意事项，细节，规范，优化。</li></ul>]]></content>
       
       
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
       
         <tags>
             
