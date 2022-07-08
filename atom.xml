@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>神奈风子</title>
+  
+  
+  <link href="https://faear.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://faear.github.io/"/>
+  <updated>2022-07-08T06:35:09.035Z</updated>
+  <id>https://faear.github.io/</id>
+  
+  <author>
+    <name>PHILFAEAR</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaSE基础</title>
+    <link href="https://faear.github.io/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>https://faear.github.io/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <published>2022-07-08T06:16:31.000Z</published>
+    <updated>2022-07-08T06:35:09.035Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Java环境配置&quot;&gt;&lt;a href=&quot;#Java环境配置&quot; class=&quot;headerlink&quot; title=&quot;Java环境配置&quot;&gt;&lt;/a&gt;Java环境配置&lt;/h1&gt;&lt;h2 id=&quot;JDK目录&quot;&gt;&lt;a href=&quot;#JDK目录&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaSE" scheme="https://faear.github.io/tags/JavaSE/"/>
+    
+    <category term="Java基础" scheme="https://faear.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome to my Blog</title>
+    <link href="https://faear.github.io/2022/04/18/Welcome/"/>
+    <id>https://faear.github.io/2022/04/18/Welcome/</id>
+    <published>2022-04-18T13:07:03.394Z</published>
+    <updated>2022-04-19T07:56:44.501Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://faear.github.io/&quot;&gt;PHILFAEAR’s Blog&lt;/a&gt;! I would appreciate it if you could give me advice or communicate</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
