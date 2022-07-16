@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Java基础2</title>
+      <link href="/2022/07/16/Java%E5%9F%BA%E7%A1%802/"/>
+      <url>/2022/07/16/Java%E5%9F%BA%E7%A1%802/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java注释（comment）"><a href="#Java注释（comment）" class="headerlink" title="Java注释（comment）"></a>Java注释（comment）</h2><ul><li>多行注释<br>△多行注释不能嵌套多行注释</li><li>文档注释<br>△注释内容可以被JDK提供的工具<strong>javadoc</strong>所解析，生成一套以<strong>网页文件形式</strong>体现的程序说明文档。一般写在类。<br>ps:要看说明文档可以看jdk的src</li></ul><p><strong>△说明文档的生成</strong><br>javadoc -d 文件夹名 -xx -yy Demo.java<br>-xx -yy是要生成的信息。可以是-author,-version.</p><h2 id="Java规范"><a href="#Java规范" class="headerlink" title="Java规范"></a>Java规范</h2><ul><li><strong>类和方法</strong>的注释要以javadoc来写。</li><li>tab整体右移，shift+tab整体左移</li><li>运算符两边要留空格</li><li>源文件utf-8</li><li>行尾风格</li></ul><h2 id="常用的DOS命令"><a href="#常用的DOS命令" class="headerlink" title="常用的DOS命令"></a>常用的DOS命令</h2><ul><li>相对命令和绝对命令<br><img src="en-resource://database/1662:1" alt="f840a7c1fb690b3aa608bdf3bf5b7e0c.png"></li><li>查看目录下有什么<strong>内容</strong><br>dir</li><li>切换到其它目录<br>cd &#x2F;D c:(切换到C盘)<br>cd .. （切换到上一级）<br>cd &#x2F;  （切换到根目录）</li><li>cls 清屏</li><li>查看指定目录下的<strong>所有子级目录</strong> tree</li><li>md 创建目录</li><li>rd 删除目录</li><li>copy 拷贝文件</li><li>del 删除文件</li><li>echo 输入内容到文件<br>echo ok &gt; pic.txt</li><li>move 剪切</li></ul><h2 id="“-”的使用"><a href="#“-”的使用" class="headerlink" title="“+”的使用"></a>“+”的使用</h2><ul><li>数值加法运算</li><li>有一方字符串，拼接运算</li></ul><h2 id="Java数据类型"><a href="#Java数据类型" class="headerlink" title="Java数据类型"></a>Java数据类型</h2><ul><li>基本数据类型</li><li>引用数据类型</li></ul><p>– 类class<br>– 接口（interface）<br>– 数组</p><ul><li>long n3 &#x3D; 1L;</li><li>浮点数 &#x3D; 符号位 + 指数位 + 尾数位。</li><li>Java浮点型常量默认是double型，float要加f</li><li>当我们对<strong>运算结果</strong>是小数的进行相等判断时，要小心。2.7 &#x3D;&#x3D; 8.1&#x2F;3<br>判断：（<strong>Math.abs(8.1&#x2F;3-2.7)&lt;0.000001</strong>）</li><li>byte,short不能和char互相转换</li><li>byte,short,char三者计算，就会首先转换成int类型</li></ul><h2 id="Java-API文档"><a href="#Java-API文档" class="headerlink" title="Java API文档"></a>Java API文档</h2><ul><li>中文在线文档<br><a href="https://www.matools.com/">https://www.matools.com</a></li><li>Java的组织形式<br>JDK-<strong>包</strong>-（接口，类，异常）</li></ul><p><strong>类</strong>-（字段，构造器，<strong>成员方法</strong>）</p><h2 id="基本类型和String的转换"><a href="#基本类型和String的转换" class="headerlink" title="基本类型和String的转换"></a>基本类型和String的转换</h2><ul><li>基本数据类型转String</li></ul><p>– int n1 &#x3D; 100;String s1 &#x3D; n1+””;</p><ul><li>String-&gt;基本数据类型</li></ul><p>– String s &#x3D; “123”;int num &#x3D; <strong>Integer.parseInt</strong>(s);</p><ul><li>s.charAt(0);取字符</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java基础 </tag>
+            
+            <tag> 注释 </tag>
+            
+            <tag> 数据类型 </tag>
+            
+            <tag> API文档 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaSE基础</title>
       <link href="/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
       <url>/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
@@ -20,9 +51,9 @@
       
         <tags>
             
-            <tag> JavaSE </tag>
-            
             <tag> Java基础 </tag>
+            
+            <tag> JavaSE </tag>
             
         </tags>
       
