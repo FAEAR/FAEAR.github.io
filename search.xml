@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Java基础3</title>
+      <link href="/2022/07/20/Java%E5%9F%BA%E7%A1%803/"/>
+      <url>/2022/07/20/Java%E5%9F%BA%E7%A1%803/</url>
+      
+        <content type="html"><![CDATA[<h2 id="输入语句"><a href="#输入语句" class="headerlink" title="输入语句"></a>输入语句</h2><ul><li>引入包<br><code>import java.util.Scanner;//简单的文本扫描器</code></li><li>创建Scanner对象<br><code>Scanner scan = new Scanner(System.in);</code></li><li>String name &#x3D; scan.next();<br>nextInt()……</li></ul><h2 id="原码、反码、补码"><a href="#原码、反码、补码" class="headerlink" title="原码、反码、补码"></a>原码、反码、补码</h2><ol><li>二进制的最高位是符号位，0是正数</li><li>正数三码合一</li><li>反码 符号位不变 其它取反</li><li>补码&#x3D;反码+1；</li><li>0的反码，补码都是0</li><li>java无无符号数</li><li>计算–补码的方式</li><li>结果要原码</li></ol><h2 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h2><ul><li>算术右移  &#x2F;2</li><li>算术左移 *2</li><li>逻辑右移、无符号右移</li></ul><h2 id="取模运算"><a href="#取模运算" class="headerlink" title="取模运算"></a>取模运算</h2><ul><li>a%b<br>&#x3D;a-(int)(a)&#x2F;b*b</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 输入语句 </tag>
+            
+            <tag> 三码 </tag>
+            
+            <tag> 位运算 </tag>
+            
+            <tag> 取模运算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java基础2</title>
       <link href="/2022/07/16/Java%E5%9F%BA%E7%A1%802/"/>
       <url>/2022/07/16/Java%E5%9F%BA%E7%A1%802/</url>

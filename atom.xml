@@ -6,7 +6,7 @@
   <link href="https://faear.github.io/atom.xml" rel="self"/>
   
   <link href="https://faear.github.io/"/>
-  <updated>2022-07-16T03:32:43.200Z</updated>
+  <updated>2022-07-20T08:54:05.623Z</updated>
   <id>https://faear.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java基础3</title>
+    <link href="https://faear.github.io/2022/07/20/Java%E5%9F%BA%E7%A1%803/"/>
+    <id>https://faear.github.io/2022/07/20/Java%E5%9F%BA%E7%A1%803/</id>
+    <published>2022-07-20T08:51:39.000Z</published>
+    <updated>2022-07-20T08:54:05.623Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;输入语句&quot;&gt;&lt;a href=&quot;#输入语句&quot; class=&quot;headerlink&quot; title=&quot;输入语句&quot;&gt;&lt;/a&gt;输入语句&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;引入包&lt;br&gt;&lt;code&gt;import</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="输入语句" scheme="https://faear.github.io/tags/%E8%BE%93%E5%85%A5%E8%AF%AD%E5%8F%A5/"/>
+    
+    <category term="三码" scheme="https://faear.github.io/tags/%E4%B8%89%E7%A0%81/"/>
+    
+    <category term="位运算" scheme="https://faear.github.io/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+    
+    <category term="取模运算" scheme="https://faear.github.io/tags/%E5%8F%96%E6%A8%A1%E8%BF%90%E7%AE%97/"/>
+    
+  </entry>
   
   <entry>
     <title>Java基础2</title>

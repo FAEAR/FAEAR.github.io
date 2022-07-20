@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaSE基础, 神奈风子">
+    <meta name="keywords" content="Java基础3, 神奈风子">
     <meta name="description" content="怕什么真理无穷，进一步有进一步的欢喜">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaSE基础 | 神奈风子</title>
+    <title>Java基础3 | 神奈风子</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -267,12 +267,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaSE基础</h1>
+                    <h1 class="description center-align post-title">Java基础3</h1>
                 </div>
             </div>
         </div>
@@ -388,12 +388,20 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Java%E5%9F%BA%E7%A1%80/">
-                                <span class="chip bg-color">Java基础</span>
+                            <a href="/tags/%E8%BE%93%E5%85%A5%E8%AF%AD%E5%8F%A5/">
+                                <span class="chip bg-color">输入语句</span>
                             </a>
                         
-                            <a href="/tags/JavaSE/">
-                                <span class="chip bg-color">JavaSE</span>
+                            <a href="/tags/%E4%B8%89%E7%A0%81/">
+                                <span class="chip bg-color">三码</span>
+                            </a>
+                        
+                            <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
+                                <span class="chip bg-color">位运算</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%8F%96%E6%A8%A1%E8%BF%90%E7%AE%97/">
+                                <span class="chip bg-color">取模运算</span>
                             </a>
                         
                     </div>
@@ -417,7 +425,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-07-08
+                    2022-07-20
                 </div>
                 
 
@@ -426,7 +434,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    414
+                    143
                 </div>
                 
 
@@ -443,34 +451,28 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Java环境配置"><a href="#Java环境配置" class="headerlink" title="Java环境配置"></a>Java环境配置</h1><h2 id="JDK目录"><a href="#JDK目录" class="headerlink" title="JDK目录"></a>JDK目录</h2><p>版本：Java 8<br>D:\Java_over\JDK_config</p>
-<h2 id="JDK介绍"><a href="#JDK介绍" class="headerlink" title="JDK介绍"></a>JDK介绍</h2><ul>
-<li>JDK基本介绍</li>
+                <h2 id="输入语句"><a href="#输入语句" class="headerlink" title="输入语句"></a>输入语句</h2><ul>
+<li>引入包<br><code>import java.util.Scanner;//简单的文本扫描器</code></li>
+<li>创建Scanner对象<br><code>Scanner scan = new Scanner(System.in);</code></li>
+<li>String name &#x3D; scan.next();<br>nextInt()……</li>
 </ul>
-<p>1.JDK的全称(Java Development Kit Java开发工具包)<br>JDK &#x3D; JRE+ java的开发工具[java, javac,javadoc,javap等]</p>
-<p>2.JDK是提供给Java开发人员使用的，其中包含了java的开发工具，也包括了JRE.所以安装了JDK，就不用在单独安装JRE了。</p>
-<ul>
-<li>JRE基本介绍</li>
+<h2 id="原码、反码、补码"><a href="#原码、反码、补码" class="headerlink" title="原码、反码、补码"></a>原码、反码、补码</h2><ol>
+<li>二进制的最高位是符号位，0是正数</li>
+<li>正数三码合一</li>
+<li>反码 符号位不变 其它取反</li>
+<li>补码&#x3D;反码+1；</li>
+<li>0的反码，补码都是0</li>
+<li>java无无符号数</li>
+<li>计算–补码的方式</li>
+<li>结果要原码</li>
+</ol>
+<h2 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h2><ul>
+<li>算术右移  &#x2F;2</li>
+<li>算术左移 *2</li>
+<li>逻辑右移、无符号右移</li>
 </ul>
-<p>1.JRE(Java Runtime Environment Java运行环境)JRE &#x3D; JVM+ Java的核心类库[类]<br>2.包括Java虚拟机(JVM Java Virtual Machine)和Java程序所需的核心类库等,如果想要运行一个开发好的Java程序，计算机中只需要安装JRE即可。</p>
-<h2 id="Java配置环境"><a href="#Java配置环境" class="headerlink" title="Java配置环境"></a>Java配置环境</h2><p>JAVA_HOME &#x2F; PATH<br>当前执行的程序在当前目录下如果不存在，win10系统会在系统中已有的一个名为PATH的环境变量指定的目录中查找。</p>
-<h1 id="Java源程序编写"><a href="#Java源程序编写" class="headerlink" title="Java源程序编写"></a>Java源程序编写</h1><h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ul>
-<li>使用文本编辑器和控制台编译时 格式要一致。ANSI</li>
-<li>Java源文件名和public类名要一致</li>
-<li>控制台编译：</li>
-</ul>
-<p>–  目录 javac HelloWorlf.java (编译)  –&gt; .class文件<br>–  java HelloWorld(解释执行）</p>
-<h1 id="Java重要特点"><a href="#Java重要特点" class="headerlink" title="Java重要特点"></a>Java重要特点</h1><ul>
-<li>面向对象</li>
-<li>健壮性：强类型机制、异常处理、垃圾的自动收集</li>
-<li>跨平台（JVM）</li>
-<li>解释型<h1 id="如何快速学习技术或者知识点"><a href="#如何快速学习技术或者知识点" class="headerlink" title="如何快速学习技术或者知识点"></a>如何快速学习技术或者知识点</h1></li>
-<li>了解需求</li>
-<li>看看现有的技术能不能解决</li>
-<li>引出我们学习的新技术和知识点</li>
-<li>学习新技术或者知识点的基本原理和基本语法（不要考虑细节）</li>
-<li>快速入门（学习基本程序）</li>
-<li>开始研究技术的注意事项，细节，规范，优化。</li>
+<h2 id="取模运算"><a href="#取模运算" class="headerlink" title="取模运算"></a>取模运算</h2><ul>
+<li>a%b<br>&#x3D;a-(int)(a)&#x2F;b*b</li>
 </ul>
 
                 
@@ -498,7 +500,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://FAEAR.github.io/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">https://FAEAR.github.io/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</a>
+                    <a href="https://FAEAR.github.io/2022/07/20/Java%E5%9F%BA%E7%A1%803/">https://FAEAR.github.io/2022/07/20/Java%E5%9F%BA%E7%A1%803/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -536,12 +538,20 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Java%E5%9F%BA%E7%A1%80/">
-                                    <span class="chip bg-color">Java基础</span>
+                                <a href="/tags/%E8%BE%93%E5%85%A5%E8%AF%AD%E5%8F%A5/">
+                                    <span class="chip bg-color">输入语句</span>
                                 </a>
                             
-                                <a href="/tags/JavaSE/">
-                                    <span class="chip bg-color">JavaSE</span>
+                                <a href="/tags/%E4%B8%89%E7%A0%81/">
+                                    <span class="chip bg-color">三码</span>
+                                </a>
+                            
+                                <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
+                                    <span class="chip bg-color">位运算</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%8F%96%E6%A8%A1%E8%BF%90%E7%AE%97/">
+                                    <span class="chip bg-color">取模运算</span>
                                 </a>
                             
                         </div>
@@ -711,9 +721,72 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/2022/07/20/Java%E5%9F%BA%E7%A1%803/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Java基础3">
+                        
+                        <span class="card-title">Java基础3</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-20
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Java%E5%9F%BA%E7%A1%80/" class="post-category">
+                                    Java基础
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E8%BE%93%E5%85%A5%E8%AF%AD%E5%8F%A5/">
+                        <span class="chip bg-color">输入语句</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%B8%89%E7%A0%81/">
+                        <span class="chip bg-color">三码</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
+                        <span class="chip bg-color">位运算</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%8F%96%E6%A8%A1%E8%BF%90%E7%AE%97/">
+                        <span class="chip bg-color">取模运算</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2022/07/16/Java%E5%9F%BA%E7%A1%802/">
                     <div class="card-image">
@@ -731,9 +804,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-07-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -765,43 +838,6 @@
                         <span class="chip bg-color">API文档</span>
                     </a>
                     
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/04/18/Welcome/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Welcome to my Blog">
-                        
-                        <span class="card-title">Welcome to my Blog</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-18
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            PHILFAEAR
-                            
-                        </span>
-                    </div>
                 </div>
                 
             </div>
