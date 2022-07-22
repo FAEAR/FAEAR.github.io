@@ -6,7 +6,7 @@
   <link href="https://faear.github.io/atom.xml" rel="self"/>
   
   <link href="https://faear.github.io/"/>
-  <updated>2022-07-20T08:54:05.623Z</updated>
+  <updated>2022-07-22T09:34:12.097Z</updated>
   <id>https://faear.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>期刊评论</title>
+    <link href="https://faear.github.io/2022/07/22/%E6%9C%9F%E5%88%8A%E8%AF%84%E8%AE%BA/"/>
+    <id>https://faear.github.io/2022/07/22/%E6%9C%9F%E5%88%8A%E8%AF%84%E8%AE%BA/</id>
+    <published>2022-07-22T06:51:39.000Z</published>
+    <updated>2022-07-22T09:34:12.097Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;期刊评论&quot;&gt;&lt;a href=&quot;#期刊评论&quot; class=&quot;headerlink&quot; title=&quot;期刊评论&quot;&gt;&lt;/a&gt;期刊评论&lt;/h1&gt;&lt;h2 id=&quot;结构&quot;&gt;&lt;a href=&quot;#结构&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="文献" scheme="https://faear.github.io/categories/%E6%96%87%E7%8C%AE/"/>
+    
+    
+    <category term="期刊评论" scheme="https://faear.github.io/tags/%E6%9C%9F%E5%88%8A%E8%AF%84%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Java基础3</title>
@@ -100,9 +125,9 @@
     <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="Java基础" scheme="https://faear.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
     <category term="JavaSE" scheme="https://faear.github.io/tags/JavaSE/"/>
+    
+    <category term="Java基础" scheme="https://faear.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
