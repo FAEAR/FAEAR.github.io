@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>区块链基础</title>
+      <link href="/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%9F%BA%E7%A1%80/"/>
+      <url>/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h2 id="区块链基础"><a href="#区块链基础" class="headerlink" title="区块链基础"></a>区块链基础</h2><h3 id="智能合约"><a href="#智能合约" class="headerlink" title="智能合约"></a>智能合约</h3><ul><li>智能合约是代码写的，并且嵌入到一个去中心化区块链平台</li><li>比特币开发者想把比特币作为价值存储，而以太坊开发者除了把以太坊看作价值存储以外，还把它当成一个运行去中心化合约的平台</li><li>智能合约能够获得发生在区块链上的所有信息，但是它们想要作为日常合同使用的话，他们需要外部的数据，和外部的计算。而这些就是预言机的作用</li><li>预言机是任何可以向区块链输入数据或者进行链下计算的设备</li><li>将链上去中心化逻辑和链下去中心化数据和计算相结合，这个东西叫做混合型智能合约</li><li>Web3是一种观点，指的是以区块链和智能合约为基础的下一代的网络</li><li>智能合约创建了不可违背的承诺（最小化信任）</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2023/02/13/%E6%80%8E%E4%B9%88%E8%AF%BB%E6%96%87%E7%8C%AE/"/>
+      <url>/2023/02/13/%E6%80%8E%E4%B9%88%E8%AF%BB%E6%96%87%E7%8C%AE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="怎么读文献"><a href="#怎么读文献" class="headerlink" title="怎么读文献"></a>怎么读文献</h2><ul><li><p>Read the <strong>title and keywords</strong>(these are probably what got you to look at the paper)</p></li><li><p>Read the <strong>abstract</strong></p></li><li><p>Read the conclusion</p></li><li><p>Look at the <strong>tables and figures</strong>(including captions)</p></li><li><p>Read the <strong>introduction</strong></p></li><li><p>Read the <strong>results and discussion</strong>(the heart)</p></li><li><p>Read the experimental</p><p>This is how they did the work. You only get to this point if you are really interested and need to understand exactly what was done to better understand the meaning of the data and its interpretation.</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>机器学习</title>
+      <link href="/2023/01/18/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2023/01/18/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="什么是机器学习"><a href="#什么是机器学习" class="headerlink" title="什么是机器学习"></a>什么是机器学习</h2><h3 id="Tom-Mitchell"><a href="#Tom-Mitchell" class="headerlink" title="Tom Mitchell"></a>Tom Mitchell</h3><p>A computer progr am is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.</p><p>计算机通过经验E完成任务T 性能指标增加</p><h2 id="学习目录"><a href="#学习目录" class="headerlink" title="学习目录"></a>学习目录</h2><ul><li><p>监督学习</p><p>right answers given</p><p>*Regression(回归):Predict continuous valued output连续</p><p>*Classification(分类):Discrete valued output离散</p></li><li><p>非监督学习</p><ul><li><p>Cocktail party problem algorithm</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/2301.png"></p><p>svd:singular value decomposition 奇异值分解</p></li></ul><p>△应用学习算法的实际建议</p></li></ul><h2 id="模型描述"><a href="#模型描述" class="headerlink" title="模型描述"></a>模型描述</h2><ul><li><p>Notation:</p><ul><li>m&#x3D;Number of training examples(训练集的数量)</li><li>**x&#x3D; “input”&#x2F;features</li><li>y’s &#x3D; “output”&#x2F;“target”variable</li></ul></li><li><p>线性回归</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/2302.png"></p></li><li><p>cost function</p><ul><li><p>在线性回归问题中通常选择最小化函数作为代价函数</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/2303.png">   </p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/2304.png"></p><p>h是关于x的函数，J是关于θ的函数，J当有多个参数时，可以用等高线来表示。</p></li></ul></li><li><p>Gradient descent(梯度下降)</p><p>We’re going to just repeatedly do this until convergence.(我们将会反复做这一步，直到收敛)</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/2306.png"></p><ul><li><p>:&#x3D;：assignment（赋值）</p></li><li><p>α：learning rate(学习率)</p></li><li><p>And what alpha does is,  it basically controls how big a step we take down hill with gradient descent.(α控制了梯度下降时 我们迈多大步子)成正比</p></li></ul></li><li><p>Why the steps of the gradient descent algorithm might make sense(梯度下降算法的更新过程有什么意义)</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/2307.png"></p><ul><li><p>What if your parameter theta one is already at a local minumum?(如果参数已经处在一个局部最优点)，what one step of gradient descent will do? </p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/2308.png"></p></li></ul></li><li><p>Gradient descent for linear regression</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 机器学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java基础5</title>
+      <link href="/2022/10/19/Java%E5%9F%BA%E7%A1%805/"/>
+      <url>/2022/10/19/Java%E5%9F%BA%E7%A1%805/</url>
+      
+        <content type="html"><![CDATA[<h2 id="什么是this"><a href="#什么是this" class="headerlink" title="什么是this"></a>什么是this</h2><ul><li><p>java虚拟机会给每个对象分配this，代表当前对象。【每个人都说我的】</p></li><li><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/10/221006.jpg"></p></li><li><p>访问构造器语法：this（参数列表），<strong>只能在构造器中使用</strong>（即只能在构造器中访问另外一个构造器）。且必须放置在第一条语句。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> this指针 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java基础4</title>
+      <link href="/2022/10/18/Java%E5%9F%BA%E7%A1%804/"/>
+      <url>/2022/10/18/Java%E5%9F%BA%E7%A1%804/</url>
+      
+        <content type="html"><![CDATA[<p>方法名必须相同，形参不一样（个数，类型，或者顺序不一样）。返回类型无要求。</p><h2 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a>可变参数</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/10/221004.jpg"></p><p>sum(1,2,3)；</p><ul><li><p>可变参数的实参可以是0个或者任意多个</p></li><li><p>可变参数的实参可以为数组</p></li><li><p>可变参数的本质就是数组</p></li><li><p>可变参数可以和普通类型的参数一起放在形参列表，但必须保证可变参数在最后</p></li><li><p>一个形参列表只能出现一个可变参数</p></li></ul><h2 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h2><ul><li><p>全局变量可以不赋值，直接使用，因为有默认值。局部变量必须赋值后才能使用。</p></li><li><p>作用域注意事项：</p><p>①属性（成员方法中的全局变量）和局部变量可以重名，访问时遵循<strong>就近原则</strong></p><p>②属性伴随着对象销魂或创建。局部变量随方法。</p><p>③局部变量不能加修饰符</p></li></ul><h2 id="构造器（方法）"><a href="#构造器（方法）" class="headerlink" title="构造器（方法）"></a>构造器（方法）</h2><ul><li><p>构造器的修饰符可以默认</p></li><li><p>构造器<strong>没有返回值</strong></p></li><li><p>方法名和类名一致</p></li><li><p>创建对象时，系统会自动调用构造器<strong>完成初始化</strong>。</p></li><li><p>如果程序员没有定义构造器，系统会自动给类生成一个默认无惨构造器（也叫默认构造器），比如Person(){},使用javap指令反编译查看。javap dog.class</p></li></ul><h2 id="对象创建的流程分析"><a href="#对象创建的流程分析" class="headerlink" title="对象创建的流程分析"></a>对象创建的流程分析</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/10/221005.jpg"></p><ul><li>加载Person类信息，只会加载一次</li><li>在堆中分配空间（地址）</li><li>完成默认初始化，-&gt;显示初始化-&gt;构造器初始化</li><li>把对象在堆中的地址返回给P</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 类与对象 </tag>
+            
+            <tag> 函数重载 </tag>
+            
+            <tag> 构造器 </tag>
+            
+            <tag> 作用域 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>递归应用</title>
+      <link href="/2022/09/29/%E9%80%92%E5%BD%92%E5%BA%94%E7%94%A8/"/>
+      <url>/2022/09/29/%E9%80%92%E5%BD%92%E5%BA%94%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="小球出迷宫"><a href="#小球出迷宫" class="headerlink" title="小球出迷宫"></a>小球出迷宫</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/220907.jpg"></p><ul><li>findway方法就是专门来找出迷宫的路径</li><li>如果找到，返回true，否则返回false</li><li>map是二维数组，表示迷宫</li><li>i,j是小球的位置，初始位置是1，1</li><li>递归找路，所以先规定，map数组各个值的含义：0表示可以走且没有走，1表示障碍物，2表示走得通，3表示走不通</li><li>map[6] [5]  &#x3D; 2;就说明找到通路，就可以结束。</li><li>找路策略：下-&gt;右-&gt;上-&gt;左</li></ul><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/10/221002.jpg"></p><h2 id="汉诺塔"><a href="#汉诺塔" class="headerlink" title="汉诺塔"></a>汉诺塔</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/10/221003.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 递归 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>类和对象</title>
+      <link href="/2022/09/14/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1/"/>
+      <url>/2022/09/14/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="类和对象（OOP）"><a href="#类和对象（OOP）" class="headerlink" title="类和对象（OOP）"></a>类和对象（OOP）</h1><h2 id="出现原因"><a href="#出现原因" class="headerlink" title="出现原因"></a>出现原因</h2><ul><li>单独变量-&gt;不利于数据的管理（使用多个单个变量，会将一个对象的信息拆解）。</li><li>数组-&gt;（1）数据类型体现不出来；（2）只能通过[下标]获取信息，造成变量名字和内容的对应关系不明确；（3）不能体现对象行为</li></ul><h2 id="类与对象关系示意图"><a href="#类与对象关系示意图" class="headerlink" title="类与对象关系示意图"></a>类与对象关系示意图</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/oop.jpg"></p><h2 id="类和对象分配机制"><a href="#类和对象分配机制" class="headerlink" title="类和对象分配机制"></a>类和对象分配机制</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/220901.jpg"></p><h2 id="Java创建对象的流程简单分析"><a href="#Java创建对象的流程简单分析" class="headerlink" title="Java创建对象的流程简单分析"></a>Java创建对象的流程简单分析</h2><ul><li>先加载类信息（只加载一次）</li><li>在堆中分配空间</li><li>地址赋给栈，指向具体的对象</li><li>属性初始化</li></ul><h2 id="为什么需要成员方法"><a href="#为什么需要成员方法" class="headerlink" title="为什么需要成员方法"></a>为什么需要成员方法</h2><ul><li>多次调用同一个代码时，会导致代码冗余度高；提高代码复用性；</li><li>将实现细节封装起来，供其他用户来调用</li></ul><h2 id="成员方法细节"><a href="#成员方法细节" class="headerlink" title="成员方法细节"></a>成员方法细节</h2><ul><li>要返回多个值时可以返回数组</li><li>方法不能嵌套定义方法，但里面可以使用已经定义好了的方法</li><li>同一个类中的方法调用：直接调用即可跨类调用需要通过对象名调用。</li></ul><h2 id="成员方法传参机制"><a href="#成员方法传参机制" class="headerlink" title="成员方法传参机制"></a>成员方法传参机制</h2><ul><li><p>基本数据类型，传递的是值（值拷贝），形参的任何改变不影响实参。</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/220902.jpg"></p></li><li><p>引用数据类型</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/220903.jpg"></p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/220904.jpg"></p></li></ul><h2 id="递归详解"><a href="#递归详解" class="headerlink" title="递归详解"></a>递归详解</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/220905.jpg"></p><h2 id="阶乘"><a href="#阶乘" class="headerlink" title="阶乘"></a>阶乘</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/220906.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 类和对象 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>大数据技术在电池全生命周期中应用总结</title>
+      <link href="/2022/09/06/%E6%96%87%E7%8C%AE-%E7%94%B5%E6%B1%A0%E5%85%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
+      <url>/2022/09/06/%E6%96%87%E7%8C%AE-%E7%94%B5%E6%B1%A0%E5%85%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="大数据技术在电池全生命周期中应用总结"><a href="#大数据技术在电池全生命周期中应用总结" class="headerlink" title="大数据技术在电池全生命周期中应用总结"></a>大数据技术在电池全生命周期中应用总结</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/20220902.jpg"></p><h2 id="回收阶段"><a href="#回收阶段" class="headerlink" title="回收阶段"></a>回收阶段</h2><ul><li><p>残值评估</p><p>残值评估是通过评估电池当前可用的最大容量</p></li></ul><h2 id="需要了解"><a href="#需要了解" class="headerlink" title="需要了解"></a>需要了解</h2><ul><li>回归分析</li><li>分类分析</li><li>特征提取</li><li>聚类分析</li><li>离群值分析</li><li>关联分析&#x2F;区块链</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文献阅读 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 回归分析 </tag>
+            
+            <tag> 分类分析 </tag>
+            
+            <tag> 特征提取 </tag>
+            
+            <tag> 聚类分析 </tag>
+            
+            <tag> 离群值分析 </tag>
+            
+            <tag> 关联分析/区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数组</title>
+      <link href="/2022/09/03/%E6%95%B0%E7%BB%84/"/>
+      <url>/2022/09/03/%E6%95%B0%E7%BB%84/</url>
+      
+        <content type="html"><![CDATA[<h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><ul><li><p>随机生成1-100的一个数：（int）(Math.random()*100)+1</p></li><li><p>random():随机生成0-1之间的double。</p></li><li><p>break可以退出指定标签；break label；</p></li><li><p>字符串内容比较 equals “ 丁真”.equals(name);</p></li><li><p>array.length数组长度</p></li></ul><h2 id="数组的定义"><a href="#数组的定义" class="headerlink" title="数组的定义"></a>数组的定义</h2><ul><li>int[] a &#x3D; new int[3];&#x2F;&#x2F;创建了一个数组，名字a,存放3个int。</li><li>int a[];a &#x3D; new int[3];&#x2F;&#x2F;先声明，后使用 </li><li>静态初始化：int a[] &#x3D; {2,5,6,7,8,89,90,34,56};</li></ul><h2 id="数组的赋值机制"><a href="#数组的赋值机制" class="headerlink" title="数组的赋值机制"></a>数组的赋值机制</h2><ul><li><p>基本数据类型是值拷贝：int n1 &#x3D; 10;int n2 &#x3D; n1;n2的变化不会影响到n1。</p></li><li><p>数组在默认情况下是<strong>引用传递</strong>，赋的值是地址：int[] arr1  &#x3D; {1,2,3}; int[] arr2 &#x3D; arr1; arr2[0] &#x3D; 10; &#x3D;&#x3D;&gt;arr1[0] &#x3D; 10;   数组拷贝可以有独立空间：先分配空间。在赋值。</p></li></ul><h2 id="数组扩容"><a href="#数组扩容" class="headerlink" title="数组扩容"></a>数组扩容</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/07/20220901.jpg"></p><h2 id="二维数组"><a href="#二维数组" class="headerlink" title="二维数组"></a>二维数组</h2><ul><li><p>一个二维数组，有三个一位数组，每个一维数组的元素是不一样的</p><p>int [ ] [ ] arr &#x3D;new int [3] [ ];</p><p>for(int i &#x3D; 0;i &lt; arr.length;i++){</p><p>​arr[i] &#x3D; new int[i+1];</p><p>}</p></li></ul><h2 id="易错点"><a href="#易错点" class="headerlink" title="易错点"></a>易错点</h2><ul><li>String strs[] &#x3D; new String[]{“a”,”b”,”c”};</li><li>boolean类型默认类型是false</li></ul><h2 id="扩容-定位"><a href="#扩容-定位" class="headerlink" title="扩容+定位"></a>扩容+定位</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/09/expandsit.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>期刊评论</title>
+      <link href="/2022/07/22/remark/"/>
+      <url>/2022/07/22/remark/</url>
+      
+        <content type="html"><![CDATA[<h1 id="期刊评论"><a href="#期刊评论" class="headerlink" title="期刊评论"></a>期刊评论</h1><h2 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h2><ul><li>研究意图</li><li>作者早期是如何概括意图的（为什么想到要这样做）</li><li>在论文中是如何展现的</li><li>理论支撑<h2 id="现状认识"><a href="#现状认识" class="headerlink" title="现状认识"></a>现状认识</h2></li><li>该研究解决了哪些该领域存在争议的点（Literature Review文献综述）<h2 id="对管理者的启示"><a href="#对管理者的启示" class="headerlink" title="对管理者的启示"></a>对管理者的启示</h2></li><li>对于管理一个组织，公司或一个机构意味着什么</li><li>你同意文章的观点吗？（propositions）</li><li>为什么要或者为什么不基于你管理人员和组织的经验<h2 id="创新点"><a href="#创新点" class="headerlink" title="创新点"></a>创新点</h2></li><li>该研究对知识体系的独特和有价值的贡献是什么</li><li>它建议进一步研究哪些领域</li><li>研究结果的管理应用程序<h2 id="清晰度和可读性"><a href="#清晰度和可读性" class="headerlink" title="清晰度和可读性"></a>清晰度和可读性</h2></li><li>评估语法，句子结构和对术语，缩写词解释准确度</li></ul><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2022/07/220722a.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文献 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 期刊评论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java基础3</title>
+      <link href="/2022/07/20/Java%E5%9F%BA%E7%A1%803/"/>
+      <url>/2022/07/20/Java%E5%9F%BA%E7%A1%803/</url>
+      
+        <content type="html"><![CDATA[<h2 id="输入语句"><a href="#输入语句" class="headerlink" title="输入语句"></a>输入语句</h2><ul><li>引入包<br><code>import java.util.Scanner;//简单的文本扫描器</code></li><li>创建Scanner对象<br><code>Scanner scan = new Scanner(System.in);</code></li><li>String name &#x3D; scan.next();<br>nextInt()……</li></ul><h2 id="原码、反码、补码"><a href="#原码、反码、补码" class="headerlink" title="原码、反码、补码"></a>原码、反码、补码</h2><ol><li>二进制的最高位是符号位，0是正数</li><li>正数三码合一</li><li>反码 符号位不变 其它取反</li><li>补码&#x3D;反码+1；</li><li>0的反码，补码都是0</li><li>java无无符号数</li><li>计算–补码的方式</li><li>结果要原码</li></ol><h2 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h2><ul><li>算术右移  &#x2F;2</li><li>算术左移 *2</li><li>逻辑右移、无符号右移</li></ul><h2 id="取模运算"><a href="#取模运算" class="headerlink" title="取模运算"></a>取模运算</h2><ul><li>a%b<br>&#x3D;a-(int)(a)&#x2F;b*b</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 输入语句 </tag>
+            
+            <tag> 三码 </tag>
+            
+            <tag> 位运算 </tag>
+            
+            <tag> 取模运算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java基础2</title>
+      <link href="/2022/07/16/Java%E5%9F%BA%E7%A1%802/"/>
+      <url>/2022/07/16/Java%E5%9F%BA%E7%A1%802/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java注释（comment）"><a href="#Java注释（comment）" class="headerlink" title="Java注释（comment）"></a>Java注释（comment）</h2><ul><li>多行注释<br>△多行注释不能嵌套多行注释</li><li>文档注释<br>△注释内容可以被JDK提供的工具<strong>javadoc</strong>所解析，生成一套以<strong>网页文件形式</strong>体现的程序说明文档。一般写在类。<br>ps:要看说明文档可以看jdk的src</li></ul><p><strong>△说明文档的生成</strong><br>javadoc -d 文件夹名 -xx -yy Demo.java<br>-xx -yy是要生成的信息。可以是-author,-version.</p><h2 id="Java规范"><a href="#Java规范" class="headerlink" title="Java规范"></a>Java规范</h2><ul><li><strong>类和方法</strong>的注释要以javadoc来写。</li><li>tab整体右移，shift+tab整体左移</li><li>运算符两边要留空格</li><li>源文件utf-8</li><li>行尾风格</li></ul><h2 id="常用的DOS命令"><a href="#常用的DOS命令" class="headerlink" title="常用的DOS命令"></a>常用的DOS命令</h2><ul><li>相对命令和绝对命令<br><img src="en-resource://database/1662:1" alt="f840a7c1fb690b3aa608bdf3bf5b7e0c.png"></li><li>查看目录下有什么<strong>内容</strong><br>dir</li><li>切换到其它目录<br>cd &#x2F;D c:(切换到C盘)<br>cd .. （切换到上一级）<br>cd &#x2F;  （切换到根目录）</li><li>cls 清屏</li><li>查看指定目录下的<strong>所有子级目录</strong> tree</li><li>md 创建目录</li><li>rd 删除目录</li><li>copy 拷贝文件</li><li>del 删除文件</li><li>echo 输入内容到文件<br>echo ok &gt; pic.txt</li><li>move 剪切</li></ul><h2 id="“-”的使用"><a href="#“-”的使用" class="headerlink" title="“+”的使用"></a>“+”的使用</h2><ul><li>数值加法运算</li><li>有一方字符串，拼接运算</li></ul><h2 id="Java数据类型"><a href="#Java数据类型" class="headerlink" title="Java数据类型"></a>Java数据类型</h2><ul><li>基本数据类型</li><li>引用数据类型</li></ul><p>– 类class<br>– 接口（interface）<br>– 数组</p><ul><li>long n3 &#x3D; 1L;</li><li>浮点数 &#x3D; 符号位 + 指数位 + 尾数位。</li><li>Java浮点型常量默认是double型，float要加f</li><li>当我们对<strong>运算结果</strong>是小数的进行相等判断时，要小心。2.7 &#x3D;&#x3D; 8.1&#x2F;3<br>判断：（<strong>Math.abs(8.1&#x2F;3-2.7)&lt;0.000001</strong>）</li><li>byte,short不能和char互相转换</li><li>byte,short,char三者计算，就会首先转换成int类型</li></ul><h2 id="Java-API文档"><a href="#Java-API文档" class="headerlink" title="Java API文档"></a>Java API文档</h2><ul><li>中文在线文档<br><a href="https://www.matools.com/">https://www.matools.com</a></li><li>Java的组织形式<br>JDK-<strong>包</strong>-（接口，类，异常）</li></ul><p><strong>类</strong>-（字段，构造器，<strong>成员方法</strong>）</p><h2 id="基本类型和String的转换"><a href="#基本类型和String的转换" class="headerlink" title="基本类型和String的转换"></a>基本类型和String的转换</h2><ul><li>基本数据类型转String</li></ul><p>– int n1 &#x3D; 100;String s1 &#x3D; n1+””;</p><ul><li>String-&gt;基本数据类型</li></ul><p>– String s &#x3D; “123”;int num &#x3D; <strong>Integer.parseInt</strong>(s);</p><ul><li>s.charAt(0);取字符</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java基础 </tag>
+            
+            <tag> 注释 </tag>
+            
+            <tag> 数据类型 </tag>
+            
+            <tag> API文档 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaSE基础</title>
+      <link href="/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+      <url>/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java环境配置"><a href="#Java环境配置" class="headerlink" title="Java环境配置"></a>Java环境配置</h1><h2 id="JDK目录"><a href="#JDK目录" class="headerlink" title="JDK目录"></a>JDK目录</h2><p>版本：Java 8<br>D:\Java_over\JDK_config</p><h2 id="JDK介绍"><a href="#JDK介绍" class="headerlink" title="JDK介绍"></a>JDK介绍</h2><ul><li>JDK基本介绍</li></ul><p>1.JDK的全称(Java Development Kit Java开发工具包)<br>JDK &#x3D; JRE+ java的开发工具[java, javac,javadoc,javap等]</p><p>2.JDK是提供给Java开发人员使用的，其中包含了java的开发工具，也包括了JRE.所以安装了JDK，就不用在单独安装JRE了。</p><ul><li>JRE基本介绍</li></ul><p>1.JRE(Java Runtime Environment Java运行环境)JRE &#x3D; JVM+ Java的核心类库[类]<br>2.包括Java虚拟机(JVM Java Virtual Machine)和Java程序所需的核心类库等,如果想要运行一个开发好的Java程序，计算机中只需要安装JRE即可。</p><h2 id="Java配置环境"><a href="#Java配置环境" class="headerlink" title="Java配置环境"></a>Java配置环境</h2><p>JAVA_HOME &#x2F; PATH<br>当前执行的程序在当前目录下如果不存在，win10系统会在系统中已有的一个名为PATH的环境变量指定的目录中查找。</p><h1 id="Java源程序编写"><a href="#Java源程序编写" class="headerlink" title="Java源程序编写"></a>Java源程序编写</h1><h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ul><li>使用文本编辑器和控制台编译时 格式要一致。ANSI</li><li>Java源文件名和public类名要一致</li><li>控制台编译：</li></ul><p>–  目录 javac HelloWorlf.java (编译)  –&gt; .class文件<br>–  java HelloWorld(解释执行）</p><h1 id="Java重要特点"><a href="#Java重要特点" class="headerlink" title="Java重要特点"></a>Java重要特点</h1><ul><li>面向对象</li><li>健壮性：强类型机制、异常处理、垃圾的自动收集</li><li>跨平台（JVM）</li><li>解释型<h1 id="如何快速学习技术或者知识点"><a href="#如何快速学习技术或者知识点" class="headerlink" title="如何快速学习技术或者知识点"></a>如何快速学习技术或者知识点</h1></li><li>了解需求</li><li>看看现有的技术能不能解决</li><li>引出我们学习的新技术和知识点</li><li>学习新技术或者知识点的基本原理和基本语法（不要考虑细节）</li><li>快速入门（学习基本程序）</li><li>开始研究技术的注意事项，细节，规范，优化。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaSE </tag>
+            
+            <tag> Java基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Welcome to my Blog</title>
+      <link href="/2022/04/18/Welcome/"/>
+      <url>/2022/04/18/Welcome/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://faear.github.io/">PHILFAEAR’s Blog</a>! I would appreciate it if you could give me advice or communicate with me.Fighting!</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

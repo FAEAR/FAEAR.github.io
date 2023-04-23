@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>神奈风子</title>
+  
+  
+  <link href="https://faear.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://faear.github.io/"/>
+  <updated>2023-04-22T13:42:25.313Z</updated>
+  <id>https://faear.github.io/</id>
+  
+  <author>
+    <name>PHILFAEAR</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>区块链基础</title>
+    <link href="https://faear.github.io/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%9F%BA%E7%A1%80/"/>
+    <id>https://faear.github.io/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%9F%BA%E7%A1%80/</id>
+    <published>2023-04-22T13:16:31.000Z</published>
+    <updated>2023-04-22T13:42:25.313Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;区块链基础&quot;&gt;&lt;a href=&quot;#区块链基础&quot; class=&quot;headerlink&quot; title=&quot;区块链基础&quot;&gt;&lt;/a&gt;区块链基础&lt;/h2&gt;&lt;h3 id=&quot;智能合约&quot;&gt;&lt;a href=&quot;#智能合约&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://faear.github.io/2023/02/13/%E6%80%8E%E4%B9%88%E8%AF%BB%E6%96%87%E7%8C%AE/"/>
+    <id>https://faear.github.io/2023/02/13/%E6%80%8E%E4%B9%88%E8%AF%BB%E6%96%87%E7%8C%AE/</id>
+    <published>2023-02-13T06:51:30.877Z</published>
+    <updated>2023-02-13T08:25:27.630Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;怎么读文献&quot;&gt;&lt;a href=&quot;#怎么读文献&quot; class=&quot;headerlink&quot; title=&quot;怎么读文献&quot;&gt;&lt;/a&gt;怎么读文献&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Read the &lt;strong&gt;title and</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习</title>
+    <link href="https://faear.github.io/2023/01/18/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://faear.github.io/2023/01/18/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</id>
+    <published>2023-01-18T06:16:31.000Z</published>
+    <updated>2023-02-16T08:01:16.070Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;什么是机器学习&quot;&gt;&lt;a href=&quot;#什么是机器学习&quot; class=&quot;headerlink&quot; title=&quot;什么是机器学习&quot;&gt;&lt;/a&gt;什么是机器学习&lt;/h2&gt;&lt;h3 id=&quot;Tom-Mitchell&quot;&gt;&lt;a href=&quot;#Tom-Mitchell&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="机器学习" scheme="https://faear.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="机器学习" scheme="https://faear.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础5</title>
+    <link href="https://faear.github.io/2022/10/19/Java%E5%9F%BA%E7%A1%805/"/>
+    <id>https://faear.github.io/2022/10/19/Java%E5%9F%BA%E7%A1%805/</id>
+    <published>2022-10-19T13:32:24.000Z</published>
+    <updated>2022-10-22T02:40:57.791Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;什么是this&quot;&gt;&lt;a href=&quot;#什么是this&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="this指针" scheme="https://faear.github.io/tags/this%E6%8C%87%E9%92%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础4</title>
+    <link href="https://faear.github.io/2022/10/18/Java%E5%9F%BA%E7%A1%804/"/>
+    <id>https://faear.github.io/2022/10/18/Java%E5%9F%BA%E7%A1%804/</id>
+    <published>2022-10-18T02:43:39.000Z</published>
+    <updated>2022-10-19T12:35:10.367Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;方法名必须相同，形参不一样（个数，类型，或者顺序不一样）。返回类型无要求。&lt;/p&gt;
+&lt;h2 id=&quot;可变参数&quot;&gt;&lt;a href=&quot;#可变参数&quot; class=&quot;headerlink&quot; title=&quot;可变参数&quot;&gt;&lt;/a&gt;可变参数&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="类与对象" scheme="https://faear.github.io/tags/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/"/>
+    
+    <category term="函数重载" scheme="https://faear.github.io/tags/%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD/"/>
+    
+    <category term="构造器" scheme="https://faear.github.io/tags/%E6%9E%84%E9%80%A0%E5%99%A8/"/>
+    
+    <category term="作用域" scheme="https://faear.github.io/tags/%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>递归应用</title>
+    <link href="https://faear.github.io/2022/09/29/%E9%80%92%E5%BD%92%E5%BA%94%E7%94%A8/"/>
+    <id>https://faear.github.io/2022/09/29/%E9%80%92%E5%BD%92%E5%BA%94%E7%94%A8/</id>
+    <published>2022-09-29T08:43:39.000Z</published>
+    <updated>2022-10-18T02:23:08.318Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;小球出迷宫&quot;&gt;&lt;a href=&quot;#小球出迷宫&quot; class=&quot;headerlink&quot; title=&quot;小球出迷宫&quot;&gt;&lt;/a&gt;小球出迷宫&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="递归" scheme="https://faear.github.io/tags/%E9%80%92%E5%BD%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>类和对象</title>
+    <link href="https://faear.github.io/2022/09/14/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1/"/>
+    <id>https://faear.github.io/2022/09/14/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1/</id>
+    <published>2022-09-14T02:28:39.000Z</published>
+    <updated>2022-10-17T06:46:19.349Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;类和对象（OOP）&quot;&gt;&lt;a href=&quot;#类和对象（OOP）&quot; class=&quot;headerlink&quot; title=&quot;类和对象（OOP）&quot;&gt;&lt;/a&gt;类和对象（OOP）&lt;/h1&gt;&lt;h2 id=&quot;出现原因&quot;&gt;&lt;a href=&quot;#出现原因&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="类和对象" scheme="https://faear.github.io/tags/%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大数据技术在电池全生命周期中应用总结</title>
+    <link href="https://faear.github.io/2022/09/06/%E6%96%87%E7%8C%AE-%E7%94%B5%E6%B1%A0%E5%85%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
+    <id>https://faear.github.io/2022/09/06/%E6%96%87%E7%8C%AE-%E7%94%B5%E6%B1%A0%E5%85%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</id>
+    <published>2022-09-06T02:28:39.000Z</published>
+    <updated>2022-09-06T14:51:43.803Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;大数据技术在电池全生命周期中应用总结&quot;&gt;&lt;a href=&quot;#大数据技术在电池全生命周期中应用总结&quot; class=&quot;headerlink&quot; title=&quot;大数据技术在电池全生命周期中应用总结&quot;&gt;&lt;/a&gt;大数据技术在电池全生命周期中应用总结&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="文献阅读" scheme="https://faear.github.io/categories/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="回归分析" scheme="https://faear.github.io/tags/%E5%9B%9E%E5%BD%92%E5%88%86%E6%9E%90/"/>
+    
+    <category term="分类分析" scheme="https://faear.github.io/tags/%E5%88%86%E7%B1%BB%E5%88%86%E6%9E%90/"/>
+    
+    <category term="特征提取" scheme="https://faear.github.io/tags/%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/"/>
+    
+    <category term="聚类分析" scheme="https://faear.github.io/tags/%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90/"/>
+    
+    <category term="离群值分析" scheme="https://faear.github.io/tags/%E7%A6%BB%E7%BE%A4%E5%80%BC%E5%88%86%E6%9E%90/"/>
+    
+    <category term="关联分析/区块链" scheme="https://faear.github.io/tags/%E5%85%B3%E8%81%94%E5%88%86%E6%9E%90-%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数组</title>
+    <link href="https://faear.github.io/2022/09/03/%E6%95%B0%E7%BB%84/"/>
+    <id>https://faear.github.io/2022/09/03/%E6%95%B0%E7%BB%84/</id>
+    <published>2022-09-03T02:28:39.000Z</published>
+    <updated>2022-09-11T09:41:48.653Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="数组" scheme="https://faear.github.io/tags/%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>期刊评论</title>
+    <link href="https://faear.github.io/2022/07/22/remark/"/>
+    <id>https://faear.github.io/2022/07/22/remark/</id>
+    <published>2022-07-22T06:51:39.000Z</published>
+    <updated>2022-09-03T04:12:08.612Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;期刊评论&quot;&gt;&lt;a href=&quot;#期刊评论&quot; class=&quot;headerlink&quot; title=&quot;期刊评论&quot;&gt;&lt;/a&gt;期刊评论&lt;/h1&gt;&lt;h2 id=&quot;结构&quot;&gt;&lt;a href=&quot;#结构&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="文献" scheme="https://faear.github.io/categories/%E6%96%87%E7%8C%AE/"/>
+    
+    
+    <category term="期刊评论" scheme="https://faear.github.io/tags/%E6%9C%9F%E5%88%8A%E8%AF%84%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础3</title>
+    <link href="https://faear.github.io/2022/07/20/Java%E5%9F%BA%E7%A1%803/"/>
+    <id>https://faear.github.io/2022/07/20/Java%E5%9F%BA%E7%A1%803/</id>
+    <published>2022-07-20T08:51:39.000Z</published>
+    <updated>2022-07-20T08:54:05.623Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;输入语句&quot;&gt;&lt;a href=&quot;#输入语句&quot; class=&quot;headerlink&quot; title=&quot;输入语句&quot;&gt;&lt;/a&gt;输入语句&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;引入包&lt;br&gt;&lt;code&gt;import</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="输入语句" scheme="https://faear.github.io/tags/%E8%BE%93%E5%85%A5%E8%AF%AD%E5%8F%A5/"/>
+    
+    <category term="三码" scheme="https://faear.github.io/tags/%E4%B8%89%E7%A0%81/"/>
+    
+    <category term="位运算" scheme="https://faear.github.io/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/"/>
+    
+    <category term="取模运算" scheme="https://faear.github.io/tags/%E5%8F%96%E6%A8%A1%E8%BF%90%E7%AE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基础2</title>
+    <link href="https://faear.github.io/2022/07/16/Java%E5%9F%BA%E7%A1%802/"/>
+    <id>https://faear.github.io/2022/07/16/Java%E5%9F%BA%E7%A1%802/</id>
+    <published>2022-07-16T03:32:24.000Z</published>
+    <updated>2022-07-16T03:32:43.200Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Java注释（comment）&quot;&gt;&lt;a href=&quot;#Java注释（comment）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="注释" scheme="https://faear.github.io/tags/%E6%B3%A8%E9%87%8A/"/>
+    
+    <category term="数据类型" scheme="https://faear.github.io/tags/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    
+    <category term="API文档" scheme="https://faear.github.io/tags/API%E6%96%87%E6%A1%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaSE基础</title>
+    <link href="https://faear.github.io/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>https://faear.github.io/2022/07/08/JavaSE%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <published>2022-07-08T06:16:31.000Z</published>
+    <updated>2022-07-08T11:20:52.991Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Java环境配置&quot;&gt;&lt;a href=&quot;#Java环境配置&quot; class=&quot;headerlink&quot; title=&quot;Java环境配置&quot;&gt;&lt;/a&gt;Java环境配置&lt;/h1&gt;&lt;h2 id=&quot;JDK目录&quot;&gt;&lt;a href=&quot;#JDK目录&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="JavaSE" scheme="https://faear.github.io/tags/JavaSE/"/>
+    
+    <category term="Java基础" scheme="https://faear.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome to my Blog</title>
+    <link href="https://faear.github.io/2022/04/18/Welcome/"/>
+    <id>https://faear.github.io/2022/04/18/Welcome/</id>
+    <published>2022-04-18T13:07:03.394Z</published>
+    <updated>2022-04-19T07:56:44.501Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://faear.github.io/&quot;&gt;PHILFAEAR’s Blog&lt;/a&gt;! I would appreciate it if you could give me advice or communicate</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
