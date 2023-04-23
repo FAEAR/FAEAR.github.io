@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>智能合约</title>
+      <link href="/2023/04/23/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E4%BD%9C%E7%94%A8/"/>
+      <url>/2023/04/23/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E4%BD%9C%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="智能合约的作用"><a href="#智能合约的作用" class="headerlink" title="智能合约的作用"></a>智能合约的作用</h2><ul><li>将智能合约与Chainlink的VRF相结合，获得一个可验证的随机数，形成一个去中心化，不可更改，可靠的</li></ul><h2 id="智能合约的应用"><a href="#智能合约的应用" class="headerlink" title="智能合约的应用"></a>智能合约的应用</h2><ul><li>DeFi: Decentralized Finance</li><li>DAOs: 去中心化自治组织</li><li>NFTs:</li></ul><h2 id="gas"><a href="#gas" class="headerlink" title="gas"></a>gas</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/202304231.png"></p><ul><li>不同的节点运行区块链，是因为它们可以通过区块链上的交易获得收入，（矿工&#x2F;验收者）</li><li>使用更多的计算资源，支付gas越多</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+            <tag> 智能合约 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>区块链基础</title>
       <link href="/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%9F%BA%E7%A1%80/"/>
       <url>/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%9F%BA%E7%A1%80/</url>
@@ -21,6 +48,41 @@
         <tags>
             
             <tag> 区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>区块链运行机制</title>
+      <link href="/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6/"/>
+      <url>/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6/</url>
+      
+        <content type="html"><![CDATA[<h2 id="SHA256-哈希"><a href="#SHA256-哈希" class="headerlink" title="SHA256 哈希"></a>SHA256 哈希</h2><ul><li><p>哈希是一个独一无二固定长度的字符串，用来代表一串数据。它是将一个数据传入“哈希函数”来生成的。 （以太坊用的Keccak-256）</p></li><li><p>矿工的作用-找到Nonce，让区块号，数据一起计算，使得哈希值由4个0开头</p></li><li><p>Hash-Block-Blockchain-Distributed-Tokens</p></li></ul><h2 id="公钥和私钥"><a href="#公钥和私钥" class="headerlink" title="公钥和私钥"></a>公钥和私钥</h2><ul><li>ECDSA算法会根据私钥创建出公钥，DSA（电子签名算法）的一种</li><li>私钥用来对信息签名，公钥让别人验证签名</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+            <tag> 哈希 </tag>
+            
+            <tag> 签名 </tag>
+            
+            <tag> 公钥 </tag>
+            
+            <tag> 私钥 </tag>
+            
+            <tag> ECDSA算法 </tag>
             
         </tags>
       
