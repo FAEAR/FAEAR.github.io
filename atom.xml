@@ -6,7 +6,7 @@
   <link href="https://faear.github.io/atom.xml" rel="self"/>
   
   <link href="https://faear.github.io/"/>
-  <updated>2023-04-23T06:29:31.356Z</updated>
+  <updated>2023-05-31T05:42:46.794Z</updated>
   <id>https://faear.github.io/</id>
   
   <author>
@@ -15,6 +15,91 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>拜占庭容错算法</title>
+    <link href="https://faear.github.io/2023/05/31/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E7%AE%97%E6%B3%95%EF%BC%88PBFT%EF%BC%89/"/>
+    <id>https://faear.github.io/2023/05/31/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E7%AE%97%E6%B3%95%EF%BC%88PBFT%EF%BC%89/</id>
+    <published>2023-05-31T08:43:39.000Z</published>
+    <updated>2023-05-31T05:42:46.794Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;崩溃容错协议（CFT）和拜占庭容错协议（BFT）的区别&quot;&gt;&lt;a href=&quot;#崩溃容错协议（CFT）和拜占庭容错协议（BFT）的区别&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>solidity基础</title>
+    <link href="https://faear.github.io/2023/05/24/solidity%E5%9F%BA%E7%A1%80/"/>
+    <id>https://faear.github.io/2023/05/24/solidity%E5%9F%BA%E7%A1%80/</id>
+    <published>2023-05-24T13:16:31.000Z</published>
+    <updated>2023-05-24T03:27:53.267Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Solidity基础-函数&quot;&gt;&lt;a href=&quot;#Solidity基础-函数&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    <category term="智能合约" scheme="https://faear.github.io/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/"/>
+    
+    <category term="solidity" scheme="https://faear.github.io/tags/solidity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>区块链概念知识</title>
+    <link href="https://faear.github.io/2023/05/09/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%A6%82%E5%BF%B5%E7%9F%A5%E8%AF%86/"/>
+    <id>https://faear.github.io/2023/05/09/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%A6%82%E5%BF%B5%E7%9F%A5%E8%AF%86/</id>
+    <published>2023-05-09T13:16:31.000Z</published>
+    <updated>2023-05-10T03:09:05.278Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Proof-of-Work-PoW-工作量证明&quot;&gt;&lt;a href=&quot;#Proof-of-Work-PoW-工作量证明&quot; class=&quot;headerlink&quot; title=&quot;Proof of Work(PoW)- 工作量证明&quot;&gt;&lt;/a&gt;Proof of</summary>
+        
+      
+    
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    <category term="共识" scheme="https://faear.github.io/tags/%E5%85%B1%E8%AF%86/"/>
+    
+    <category term="工作量证明" scheme="https://faear.github.io/tags/%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E/"/>
+    
+    <category term="权益证明" scheme="https://faear.github.io/tags/%E6%9D%83%E7%9B%8A%E8%AF%81%E6%98%8E/"/>
+    
+  </entry>
   
   <entry>
     <title>智能合约</title>
@@ -73,7 +158,7 @@
     <link href="https://faear.github.io/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6/"/>
     <id>https://faear.github.io/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6/</id>
     <published>2023-04-22T13:16:31.000Z</published>
-    <updated>2023-04-23T07:58:03.920Z</updated>
+    <updated>2023-05-09T09:34:19.076Z</updated>
     
     
       
@@ -426,9 +511,9 @@
     <category term="Java基础" scheme="https://faear.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="Java基础" scheme="https://faear.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
-    
     <category term="JavaSE" scheme="https://faear.github.io/tags/JavaSE/"/>
+    
+    <category term="Java基础" scheme="https://faear.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   

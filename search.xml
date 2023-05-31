@@ -4,6 +4,91 @@
   
     
     <entry>
+      <title>拜占庭容错算法</title>
+      <link href="/2023/05/31/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E7%AE%97%E6%B3%95%EF%BC%88PBFT%EF%BC%89/"/>
+      <url>/2023/05/31/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E7%AE%97%E6%B3%95%EF%BC%88PBFT%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h2 id="崩溃容错协议（CFT）和拜占庭容错协议（BFT）的区别"><a href="#崩溃容错协议（CFT）和拜占庭容错协议（BFT）的区别" class="headerlink" title="崩溃容错协议（CFT）和拜占庭容错协议（BFT）的区别"></a>崩溃容错协议（CFT）和拜占庭容错协议（BFT）的区别</h2><ul><li>CFT:针对系统中存在<strong>故障节点</strong>的情况，常见协议有paxos,raft</li><li>BFT:针对系统中存在<strong>恶意节点</strong>的情况，常见协议有PBFT，hotstuff</li></ul><h2 id="拜占庭容错算法的基本假设（节点和消息传递）"><a href="#拜占庭容错算法的基本假设（节点和消息传递）" class="headerlink" title="拜占庭容错算法的基本假设（节点和消息传递）"></a>拜占庭容错算法的基本假设（节点和消息传递）</h2><ul><li>通常会假设恶意节点小于某一个固定的值，然后以此作为前提条件进行共识算法的设计<ul><li>例如PoW假设恶意节点占比小于1&#x2F;2，PBFT假设恶意节点占比小于1&#x2F;3</li></ul></li></ul><h3 id="网络条件"><a href="#网络条件" class="headerlink" title="网络条件"></a>网络条件</h3><ul><li>同步模型：在一个同步网络的模型中，网络当中的传送消息的延迟小于某个确定的值，这个值可以被参与这个分布式系统的节点所知道。</li><li>部分异步模型：在一个部分异步的网络模型当中，网络当中传送的消息的延迟小于某一个值，这个值参与分布式系统的节点不知道。</li><li>异步模型：信息传送的时间可以无限大，只要消息能够传送到。</li></ul><h2 id="拜占庭容错问题的算法介绍"><a href="#拜占庭容错问题的算法介绍" class="headerlink" title="拜占庭容错问题的算法介绍"></a>拜占庭容错问题的算法介绍</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/BFT202301.png"></p><h2 id="BFT在区块链当中的应用（Algorand-stellar）"><a href="#BFT在区块链当中的应用（Algorand-stellar）" class="headerlink" title="BFT在区块链当中的应用（Algorand,stellar）"></a>BFT在区块链当中的应用（Algorand,stellar）</h2><p>区块链共识本身是在有一定比例的恶意节点的情况下，在区块链系统当中的节点要达成一致的过程。本身就是一个拜占庭容错问题。</p><p>现在的区块链共识算法可以分为两大派别，第一派是在工作量证明的基础上进行各种改进，例如权益证明方案。</p><p>另一派是在经典的拜占庭容错算法的基础上进行一定的改进。例如会首先在众多的节点当中选举出少量的委员会节点，之后在委员会节点当中运行一些PBFT算法。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>solidity基础</title>
+      <link href="/2023/05/24/solidity%E5%9F%BA%E7%A1%80/"/>
+      <url>/2023/05/24/solidity%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Solidity基础-函数"><a href="#Solidity基础-函数" class="headerlink" title="Solidity基础-函数"></a>Solidity基础-函数</h2><ul><li><p>部署一个合约就修改了区块链，让链上拥有这个合约</p></li><li><p>view 和pure函数不用支付gas。在消耗gas的函数中调用还是要用gas</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/block1.png"></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+            <tag> 智能合约 </tag>
+            
+            <tag> solidity </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>区块链概念知识</title>
+      <link href="/2023/05/09/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%A6%82%E5%BF%B5%E7%9F%A5%E8%AF%86/"/>
+      <url>/2023/05/09/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%A6%82%E5%BF%B5%E7%9F%A5%E8%AF%86/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Proof-of-Work-PoW-工作量证明"><a href="#Proof-of-Work-PoW-工作量证明" class="headerlink" title="Proof of Work(PoW)- 工作量证明"></a>Proof of Work(PoW)- 工作量证明</h2><ul><li>工作量证明是一种抗女巫机制</li><li>节点必须完成需要很大计算量的过程（挖矿）</li><li>实际上，每个区块链都会有意让“难题”更难，或者更简单，从而调整出块时间。</li><li>可以验证是谁挖出了区块，</li></ul><h2 id="链选择的规则"><a href="#链选择的规则" class="headerlink" title="链选择的规则"></a>链选择的规则</h2><ul><li>中本聪共识（Nakamoto Consensus）</li><li>确认区块Block Confirmations：在我们的交易写入区块后，新挖出的区块数量</li><li>第一个解出难题的结点会收入：手续费，区块奖励</li></ul><h2 id="女巫攻击-Sybil-Attack-和51-Attack"><a href="#女巫攻击-Sybil-Attack-和51-Attack" class="headerlink" title="女巫攻击(Sybil Attack)和51%Attack"></a>女巫攻击(Sybil Attack)和51%Attack</h2><ul><li>创建很多匿名用户-女巫攻击</li><li>51%：作为共识协议的一部分，最长的链会被选择为正确的链，同时要满足和网络的51%相一致。</li></ul><h2 id="权益证明"><a href="#权益证明" class="headerlink" title="权益证明"></a>权益证明</h2><ul><li>与解难题的方式不同，权益证明需要放置一些抵押物以保证不作恶。如果你没有正常运行，你就有丢失掉质押资产的风险。</li><li>在权益证明中，结点会被直接选举出来，然后提出一个区块，别的结点会验证这个被提出的区块是否有效，</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+            <tag> 共识 </tag>
+            
+            <tag> 工作量证明 </tag>
+            
+            <tag> 权益证明 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>智能合约</title>
       <link href="/2023/04/23/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E4%BD%9C%E7%94%A8/"/>
       <url>/2023/04/23/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E4%BD%9C%E7%94%A8/</url>
@@ -60,7 +145,7 @@
       <link href="/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6/"/>
       <url>/2023/04/22/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6/</url>
       
-        <content type="html"><![CDATA[<h2 id="SHA256-哈希"><a href="#SHA256-哈希" class="headerlink" title="SHA256 哈希"></a>SHA256 哈希</h2><ul><li><p>哈希是一个独一无二固定长度的字符串，用来代表一串数据。它是将一个数据传入“哈希函数”来生成的。 （以太坊用的Keccak-256）</p></li><li><p>矿工的作用-找到Nonce，让区块号，数据一起计算，使得哈希值由4个0开头</p></li><li><p>Hash-Block-Blockchain-Distributed-Tokens</p></li></ul><h2 id="公钥和私钥"><a href="#公钥和私钥" class="headerlink" title="公钥和私钥"></a>公钥和私钥</h2><ul><li>ECDSA算法会根据私钥创建出公钥，DSA（电子签名算法）的一种</li><li>私钥用来对信息签名，公钥让别人验证签名</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="SHA256-哈希"><a href="#SHA256-哈希" class="headerlink" title="SHA256 哈希"></a>SHA256 哈希</h2><ul><li><p>哈希是一个独一无二固定长度的字符串，用来代表一串数据。它是将一个数据传入“哈希函数”来生成的。 （以太坊用的Keccak-256）</p></li><li><p>矿工的作用-找到Nonce，让区块号，数据一起计算，使得哈希值由4个0开头</p></li><li><p>Hash-Block-Blockchain-Distributed-Tokens</p></li></ul><h2 id="公钥和私钥"><a href="#公钥和私钥" class="headerlink" title="公钥和私钥"></a>公钥和私钥</h2><ul><li>ECDSA算法会根据私钥创建出公钥，DSA（电子签名算法）的一种</li><li>私钥用来对信息签名，公钥让别人验证签名</li></ul><h2 id="Gas"><a href="#Gas" class="headerlink" title="Gas"></a>Gas</h2><p>在区块链浏览器上可以看到，Transaction Fee &#x3D; (Block Base Fee Per Gas + MaxPriorityFee Per Gas)*Gas Used</p><ul><li>在区块链中，区块能存储交易的空间有限，为了让你的交易被写在某个区块中，你需要支付手续费，这个手续费，会根据需求变化，以太坊的base gas费用会上下调节，调节依据（区块50%）。</li></ul>]]></content>
       
       
       <categories>
@@ -398,9 +483,9 @@
       
         <tags>
             
-            <tag> Java基础 </tag>
-            
             <tag> JavaSE </tag>
+            
+            <tag> Java基础 </tag>
             
         </tags>
       
