@@ -6,7 +6,7 @@
   <link href="https://faear.github.io/atom.xml" rel="self"/>
   
   <link href="https://faear.github.io/"/>
-  <updated>2023-05-31T05:42:46.794Z</updated>
+  <updated>2023-06-01T06:31:23.767Z</updated>
   <id>https://faear.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Storage Factory(引入其他合约)</title>
+    <link href="https://faear.github.io/2023/06/01/StorageFactory/"/>
+    <id>https://faear.github.io/2023/06/01/StorageFactory/</id>
+    <published>2023-06-01T08:43:39.000Z</published>
+    <updated>2023-06-01T06:31:23.767Z</updated>
+    
+    
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    
+    <category term="区块链" scheme="https://faear.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>拜占庭容错算法</title>
@@ -46,7 +63,7 @@
     <link href="https://faear.github.io/2023/05/24/solidity%E5%9F%BA%E7%A1%80/"/>
     <id>https://faear.github.io/2023/05/24/solidity%E5%9F%BA%E7%A1%80/</id>
     <published>2023-05-24T13:16:31.000Z</published>
-    <updated>2023-05-24T03:27:53.267Z</updated>
+    <updated>2023-06-01T02:18:46.681Z</updated>
     
     
       

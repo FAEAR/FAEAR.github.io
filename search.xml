@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Storage Factory(引入其他合约)</title>
+      <link href="/2023/06/01/StorageFactory/"/>
+      <url>/2023/06/01/StorageFactory/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 区块链 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 区块链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>拜占庭容错算法</title>
       <link href="/2023/05/31/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E7%AE%97%E6%B3%95%EF%BC%88PBFT%EF%BC%89/"/>
       <url>/2023/05/31/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%AE%B9%E9%94%99%E7%AE%97%E6%B3%95%EF%BC%88PBFT%EF%BC%89/</url>
@@ -33,7 +58,7 @@
       <link href="/2023/05/24/solidity%E5%9F%BA%E7%A1%80/"/>
       <url>/2023/05/24/solidity%E5%9F%BA%E7%A1%80/</url>
       
-        <content type="html"><![CDATA[<h2 id="Solidity基础-函数"><a href="#Solidity基础-函数" class="headerlink" title="Solidity基础-函数"></a>Solidity基础-函数</h2><ul><li><p>部署一个合约就修改了区块链，让链上拥有这个合约</p></li><li><p>view 和pure函数不用支付gas。在消耗gas的函数中调用还是要用gas</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/block1.png"></p></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="Solidity基础-函数"><a href="#Solidity基础-函数" class="headerlink" title="Solidity基础-函数"></a>Solidity基础-函数</h2><ul><li><p>部署一个合约就修改了区块链，让链上拥有这个合约</p></li><li><p>view 和pure函数不用支付gas。在消耗gas的函数中调用还是要用gas</p><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/block1.png"></p></li></ul><h2 id="calldata-memory-storage（用于确定数组（字符串），结构，映射的位置）"><a href="#calldata-memory-storage（用于确定数组（字符串），结构，映射的位置）" class="headerlink" title="calldata,memory,storage（用于确定数组（字符串），结构，映射的位置）"></a>calldata,memory,storage（用于确定数组（字符串），结构，映射的位置）</h2><ul><li>calldata和memory表示只是暂时存在，所以_name变量只在调用函数时暂时存在 </li><li>calldata是不可更改的临时变量，memory是可以更改的临时变量，storage是可更改的永久变量</li></ul><h2 id="mapping-映射"><a href="#mapping-映射" class="headerlink" title="mapping(映射)"></a>mapping(映射)</h2><p><img src="https://w-fish.oss-cn-chengdu.aliyuncs.com/2023/mapping2023.png"></p><h2 id><a href="#" class="headerlink" title></a></h2>]]></content>
       
       
       <categories>
